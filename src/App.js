@@ -30,15 +30,15 @@ class App extends Component {
     const {isLoading, movies} = this.state;
     return (
 
-      <section class="container">
+      <section className="container">
         {isLoading ? (
-          <div class="loader">
-            <span class="loader__text">
+          <div className="loader">
+            <span className="loader__text">
               loading..
             </span>
           </div>
         ) : (
-          <div class="movies">
+          <div className="movies">
             {movies.map(movie => (
                 <Movie
                   key={movie.id}
