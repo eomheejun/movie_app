@@ -47,6 +47,7 @@ class App extends Component {
                   title={movie.title}
                   summary={movie.summary}
                   poster={movie.large_cover_image}
+                  genres={movie.genres}
                 />
             ))}
           </div>
